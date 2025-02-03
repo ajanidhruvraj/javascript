@@ -23,3 +23,22 @@ console.log(typeof null);//object
 //Array,objects,functions
 
 //dynamic or static ?find
+
+//----------------------------
+
+//stack and heap memory
+//stack
+let name = "asdfghjklgh"
+let fname = name
+//this will give copy of name to fname
+//heap
+let name1={
+    email:"sdfghjkl",
+    pass:"sdfghjkl"
+}
+
+let fname1=name1
+fname1.email="dj@mail.com"
+console.log(fname1.email);
+console.log(name1.email);
+// this will give refrence instedbof making copy
