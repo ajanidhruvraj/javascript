@@ -10,6 +10,8 @@
 // undefined
 // symbol ==> uniqe
 // object
-let account4 =9;
+let account4;
 
 console.log(typeof account4);
+console.log(typeof undefined);//undefine
+console.log(typeof null);//object
