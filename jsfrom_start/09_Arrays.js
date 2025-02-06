@@ -18,13 +18,13 @@ console.log(myarr.includes(4));
 // slice/splice
 
 const newArry = new Array(1,2,3,4,5,6);
-console.log("original array "+newArry);
+console.log("original array ",newArry);
 const nAr = newArry.slice(1,3)//from 1 to index 2
-console.log("sliced array "+nAr);
-console.log("original array "+newArry);
+console.log("sliced array ",nAr);
+console.log("original array ",newArry);
 const nAr2 = newArry.splice(1,3)//from 1 to index 3 with changing original array
-console.log("spliced array "+nAr2);
-console.log("original array "+newArry);
+console.log("spliced array ",nAr2);
+console.log("original array ",newArry);
 
 
 //Array part 2

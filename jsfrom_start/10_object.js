@@ -40,3 +40,16 @@ console.log(obj4);
 
 console.log(Object.keys(obj));
 console.log(Object.values(obj));
+
+const course = {
+    courseName:"Name1",
+    courseDuration:"20 Days",
+    CourseInstructor:"sdfghjkl"
+}
+
+const {CourseInstructor}=course
+const {CourseInstructor:instructor}=course
+const {courseName:name}=course
+console.log(name);
+console.log(CourseInstructor);
+console.log(instructor);
