@@ -6,7 +6,7 @@ function add(){
     let c=a+b
     console.log(c);
 }
-add()
+add()//calling function
 // paramiterized function
 function add1(a,b){
     let c=a+b
@@ -30,13 +30,21 @@ let mysum = Symbol("key")
 
 let obj = {
     name: "dhruvraj",
-    "full name": "Dhruvraj Ajani",
+    "full_name": "Dhruvraj Ajani",
     [mysum]:"kye1",
     age: 21,
     email:"dhruv@MediaList.com"
 }
+let obj1 = {
+    name: "dhruvraj",
+    "full_name": "Dhruvraj",
+    [mysum]:"kye1",
+    age: 24,
+    email:"dhruv@MediaList.com"
+}
 function details(anyobject){
-    return `hello {anyobject.full name} your age is {anyobject.age}.`
+    return `hello ${anyobject.full_name} your age is ${anyobject.age}.`
 }
 
 console.log(details(obj));
+console.log(details(obj1));
